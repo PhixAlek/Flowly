@@ -1,0 +1,139 @@
+## ====================================================================
+## .NET / Visual Studio
+## ====================================================================
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+[Ll]ogs/
+*.log
+
+.vs/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.sln.docstates
+
+*.rsuser
+*.cache
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*_i.c
+*_p.c
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+
+## ====================================================================
+## NuGet
+## ====================================================================
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## ====================================================================
+## Test / coverage
+## ====================================================================
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+coverage*.json
+coverage*.xml
+*.coverage
+*.coveragexml
+*.opencover.xml
+
+## ====================================================================
+## ASP.NET / Configuración y Secretos (BLINDAJE CRÍTICO)
+## ====================================================================
+# Bloqueamos cualquier appsettings específico que pueda llevar contraseñas reales
+appsettings.Development.json
+appsettings.Production.json
+appsettings.Staging.json
+appsettings.*.local.json
+
+# PERMITIMOS subir el appsettings base (Debe contener solo la estructura VACÍA)
+!appsettings.json
+
+# Secretos nativos de .NET y llaves criptográficas
+secrets.json
+*.pfx
+*.publishsettings
+
+## ====================================================================
+## Variables de Entorno (Flowly local config)
+## ====================================================================
+.env
+.env.*
+!.env.example
+
+## ====================================================================
+## AI Tools & IDES Avanzados (Cursor / Claude Code)
+## ====================================================================
+.cursor/
+.claude/
+tomb.json
+.idea/
+*.DotSettings.user
+*.sln.iml
+
+## ====================================================================
+## Database (Local dev / SQLite / SQL Server local)
+## ====================================================================
+*.db
+*.db-shm
+*.db-wal
+*.mdf
+*.ldf
+
+## ====================================================================
+## OS (Sistemas Operativos)
+## ====================================================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+## ====================================================================
+## Publish
+## ====================================================================
+publish/
+*.pubxml.user
