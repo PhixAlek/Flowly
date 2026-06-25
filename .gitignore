@@ -80,6 +80,7 @@ coverage*.xml
 *.coverage
 *.coveragexml
 *.opencover.xml
+tmp/
 
 ## ====================================================================
 ## ASP.NET / Configuración y Secretos (BLINDAJE CRÍTICO)
