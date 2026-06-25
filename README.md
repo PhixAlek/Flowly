@@ -2,7 +2,7 @@
 
 Flowly is a personal finance app designed for people with no financial background. It helps users build healthy money habits, manage monthly budgets, and stay in control of their finances through a simple and friendly experience.
 
-The project is being rebuilt from an AI-generated boilerplate into a domain-first .NET application. The priority right now is not infrastructure or database work. The priority is understanding the domain correctly and protecting the core business rules with tests.
+The project is being Domain-first architecture: business rules are validated before infrastructure is added into a domain-first .NET application. The priority right now is not infrastructure or database work. The priority is understanding the domain correctly and protecting the core business rules with tests.
 
 ## Product Vision
 
